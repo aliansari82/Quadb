@@ -1,0 +1,63 @@
+# React Native
+node_modules/
+
+npm-debug.log
+yarn-error.log
+
+# Ignore package-lock.json
+package-lock.json
+
+# React Native Packager
+.expo/
+*.expo
+.expo-shared/
+
+# Xcode
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.mode1v3
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+xcuserdata
+*.xcuserstate
+
+# Android/IntelliJ
+android/.gradle/
+android/app/build/
+android/app/release/
+android/.idea/
+.gradle
+*.iml
+.idea/workspace.xml
+
+# Include specific Gradle files
+!android/build.gradle
+!android/gradlew
+!android/gradlew.bat
+!android/settings.gradle
+!android/gradle.properties
+!android/gradle/
+
+# Exclude sensitive files
+# android/local.properties
+
+# BUCK
+.buckconfig.local
+buck-out/
+.buckversion
+
+# fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+
+# Miscellaneous
+*.lock
+.DS_Store
+*.swp
+.vscode/
+
+# Log files
+*.log
